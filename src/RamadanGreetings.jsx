@@ -2,9 +2,11 @@ import './App.css';
 import MoonGreeting from './imgs/MoonGreeting.webp'
 import Button from '@mui/material/Button';
 import MarkAsUnreadIcon from '@mui/icons-material/MarkAsUnread';
-import { useState } from 'react';
+import { useState , useRef } from 'react';
 import ShowGreeting from './showGreeting';
 import UnKnownName from './UnKnownName';
+import audio from './audio/تهنئة رمضان.MP3';
+
 
 export default function RamadanGreetings(){
 
@@ -20,6 +22,8 @@ export default function RamadanGreetings(){
 
     const [keyGreeting, setKeyGreeting] = useState(0);
 
+    const PlayAudio = useRef(null);
+
 
 
     function handleNameClick(){
@@ -30,6 +34,7 @@ export default function RamadanGreetings(){
             setShowGreeting(true)
             setShowName(name);
             setKeyGreeting(prev => prev +1)
+            PlayAudio.current.play();
         }
     }
 
@@ -50,7 +55,9 @@ export default function RamadanGreetings(){
                             value={name}
                             onChange={(event)=>setName(event.target.value)}
                             id='inp' className='w-[90%] mt-10 p-2 bg-white text-black text-center border-2 border-pink-500 rounded-3xl outline-0 focus:bg-pink-500 focus:shadow-sm focus:shadow-white' placeholder='الاسم هنا' />
-                            
+                            {/* audio */}
+                            <audio src={audio} ref={PlayAudio}></audio>
+                            {/* ----- */}
                             <Button onClick={handleNameClick} variant="contained" color='error' sx={{width: "100px" , height: "50px" , marginTop: "40px"}}><MarkAsUnreadIcon /></Button>
                         </div>
                     </div>

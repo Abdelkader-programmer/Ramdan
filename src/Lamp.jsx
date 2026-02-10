@@ -1,4 +1,5 @@
 import './App.css';
+import Marquee from 'react-fast-marquee';
 import bakar from './imgs/Bakar.webp';
 import basant from './imgs/basant.webp';
 import fatota from './imgs/fatota.webp';
@@ -36,8 +37,8 @@ export default function RamadanLamp(){
             </div>
 
             <div>
-                <marquee behavior="" direction="right" className="mt-15">
-                    <div className='w-full flex justify-around'>
+                <Marquee direction='right' className="w-full mt-15" speed={80}>
+                    <div className='w-full flex justify-center gap-30'>
                         <img src={bakar} alt="bakar" className='w-20 h-30 rotate-y-180' />
                         <img src={basant} alt="basant" className='w-20 h-30' />
                         <img src={fatota} alt="fatota" className='w-20 h-30' />
@@ -46,7 +47,7 @@ export default function RamadanLamp(){
                         <img src={mosaher} alt="mosaher" className='w-20 h-30' />
                         <img src={tamtam} alt="tamtam" className='w-20 h-30' />
                     </div>
-                </marquee>
+                </Marquee>
             </div>
         </>
     )
