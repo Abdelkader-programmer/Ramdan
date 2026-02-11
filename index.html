@@ -5,7 +5,19 @@
     <link rel="icon" type="image/svg+xml" href="/Ramdan/assets/icon-zGigoKsT.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ramadan Kareem</title>
-    <script type="module" crossorigin src="/Ramdan/assets/index-DyZSNoNk.js"></script>
+    <script>
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/Ramdan/assets/index-DH0GZhLQ.js"></script>
     <link rel="stylesheet" crossorigin href="/Ramdan/assets/index-B5Q9K3eU.css">
   </head>
   <body>
