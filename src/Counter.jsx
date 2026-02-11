@@ -31,7 +31,7 @@ export default function Counter(){
                         <div className='w-full mt-10'>
                             <div className='w-[95%] m-auto p-4 py-7 border-4 border-pink-500 rounded-tl-3xl rounded-tr-3xl rounded-bl-4xl rounded-br-4xl'>
                                 <div className='w-full border-2 border-pink-500 bg-white py-2 text-3xl text-center rounded-2xl'>{num}</div>
-                                <p className='text-2xl IslamicFont text-center text-white IslamicFont3 mt-5'>السبحة</p>
+                                <p className='text-2xl IslamicFont text-center text-white IslamicFont3 mt-5'>العدد</p>
                                 <div className='w-full flex justify-end mt-10 px-5'>
                                     <Button onClick={handleClickReCounter} variant="outlined" color='secondary' sx={{borderRadius : "100%" , padding : "15px" , borderWidth : "5px"}}><ReplayIcon /></Button>
                                 </div>

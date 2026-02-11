@@ -1,16 +1,40 @@
-# React + Vite
+🌙 موقع تهاني رمضان
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+مرحبًا بك في موقع تهاني رمضان! 🎉✨
 
-Currently, two official plugins are available:
+تجربة ويب خاصة للاحتفال بالشهر الكريم رمضان 🌙. يهدف الموقع لمشاركة الفرح الروحي والسلام والتأمل خلال رمضان من خلال ميزات تفاعلية ومحتوى معبر وجميل.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🕌 المميزات
 
-## React Compiler
+تهاني رمضان ✨: رسائل دافئة للاحتفال ومشاركة بركات الشهر الكريم.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+المصحف الشريف 📖: قراءة المصحف بطريقة جميلة ومريحة للتأمل خلال الشهر المبارك.
 
-## Expanding the ESLint configuration
+السبحة الرقمية (Tasbeeh) 🔹: سبحة تفاعلية لمتابعة الأذكار بسهولة ويسر.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+أجواء رمضان 🌙: تصميم بصري هادئ وموضوعات تعكس روح ليالي رمضان.
+
+🎨 التقنيات المستخدمة
+
+HTML5 & CSS3 – لتصميم حديث ومتجاوب.
+
+JavaScript – لإضافة التفاعلية مثل السبحة والرسائل المتحركة.
+
+تصميم متجاوب – متوافق مع الهواتف، التابلت، وأجهزة الكمبيوتر.
+
+
+🌟 لماذا هذا المشروع؟
+
+رمضان هو وقت التأمل، الامتنان، والتواصل الروحي. يهدف هذا الموقع لتوفير مساحة رقمية تمكن المستخدمين من:
+
+مشاركة التهاني مع الأحبة 💌
+
+قراءة وتأمل القرآن الكريم 📖
+
+متابعة الأذكار باستخدام السبحة الرقمية 🔹
+
+الاستمتاع بالأجواء الهادئة لشهر رمضان 🌙
+
+🙏 المساهمة
+
+يمكنك عمل Fork للمشروع، اقتراح تحسينات، أو إضافة ميزات جديدة لتطوير تجربة رمضان الرقمية!
