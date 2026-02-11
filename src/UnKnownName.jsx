@@ -13,7 +13,7 @@ export default function UnKnownName(){
     return(
         <>
             {close &&(
-                <div onClick={handleClose} className='w-full fixed top-0 setShow'>
+                <div onClick={handleClose} className='w-full fixed top-0 z-20 setShow'>
                     <div className='w-full h-screen bg-black/85 grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1'>
                         <div></div>
                         <div className='w-[90%] m-auto grid items-center'>

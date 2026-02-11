@@ -1,5 +1,5 @@
 import './App.css';
-import Fananes from './imgs/fananes.webp'
+import Zekr from './imgs/Zekr.webp'
 import { useState } from 'react';
 
 export default function ShowGreeting({name}){
@@ -12,7 +12,7 @@ export default function ShowGreeting({name}){
     return(
         <>
             {close&& (
-                <div onClick={handleClose} className='w-full fixed top-0 setShow'>
+                <div onClick={handleClose} className='w-full fixed top-0 z-20 setShow'>
                     <div className='w-full h-screen bg-black/85 grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1'>
                         <div></div>
                         <div className='w-[90%] m-auto grid items-center text-center p-2'>
@@ -22,7 +22,7 @@ export default function ShowGreeting({name}){
                             <p className='mt-8 text-white text-4xl IslamicFont IslamicFont2'>🌙 رمضان كريم</p>
                             <p className='mt-7 text-white text-3xl IslamicFont IslamicFont2'> أعاده الله عليكم بالخير والصحة والسعادة</p>
 
-                            <img src={Fananes} alt="Fananes" className='mt-5 m-auto drop-shadow-lg drop-shadow-white upAndDown' />
+                            <img src={Zekr} alt="Zekr" className='mt-5 m-auto w-[50%] rounded-full border-4 border-white' />
                         </div>
                         <div></div>
                     </div>
