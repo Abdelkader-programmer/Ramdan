@@ -102,14 +102,19 @@ body{
 @keyframes lantern2 {
   0%{
     rotate: 45deg;
+    filter: drop-shadow(0px 0px 0px rgb(246, 246, 101));
   }
   50%{
     rotate: -45deg;
+    filter: drop-shadow(0px 0px 15px rgb(246, 246, 101));
   }
   100%{
     rotate: 45deg;
+    filter: drop-shadow(0px 0px 0px rgb(246, 246, 101));
   }
 }
+
+
 
 .setShow{
   animation: setShow 0.2s 1;
@@ -178,12 +183,15 @@ body{
 @keyframes lantern2 {
   0%{
     rotate: 20deg;
+    filter: drop-shadow(0px 0px 0px rgb(246, 246, 101));
   }
   50%{
     rotate: -20deg;
+    filter: drop-shadow(0px 0px 15px rgb(246, 246, 101));
   }
   100%{
     rotate: 20deg;
+    filter: drop-shadow(0px 0px 0px rgb(246, 246, 101));
   }
 }
 }

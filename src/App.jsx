@@ -56,7 +56,7 @@ function App() {
           </div>
         </Container>
         <div className='w-full mt-5'>
-          <img src={lantern} alt="lantern" className='m-auto lantern rotate-45 origin-top lantern2' />
+          <img src={lantern} alt="lantern" className='m-auto lantern rotate-45 origin-top lantern2 lanternShadow' />
         </div>
       </nav>
 
